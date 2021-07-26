@@ -52,8 +52,8 @@ span {
 .action-btn-prim {
   background-color: #ff676f;
   border-radius: 10px;
-  border: solid white;
   color: white;
+  border: solid #ff676f;
   font-size: large;
   font-weight: bold;
 }
