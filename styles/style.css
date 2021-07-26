@@ -35,10 +35,10 @@ span {
 }
 
 .passive-btn {
-  background-color: gray;
+  background-color: white;
   border-radius: 10px;
   border: solid gray;
-  color: white;
+  color: gray;
   font-size: large;
   font-weight: bold;
 }
