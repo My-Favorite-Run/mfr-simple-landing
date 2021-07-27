@@ -61,3 +61,7 @@ span {
   background-color: #ff676f;
   color: white;
 }
+
+.clickable:hover {
+  cursor: pointer;
+}
