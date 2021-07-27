@@ -1,0 +1,67 @@
+* {
+  font-family: "Poppins" !important;
+}
+
+/*Overflow-y and Display changes allows user to scroll without seeing the scrollbar on the side*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #f4f1ed;
+  overflow-y: scroll;
+}
+
+.header {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+span {
+  color: #ff676f;
+}
+
+.action-btn {
+  border-radius: 10px;
+  border: solid #ff676f;
+  color: #ff676f;
+  font-size: large;
+  font-weight: bold;
+}
+
+.passive-btn {
+  background-color: white;
+  border-radius: 10px;
+  border: solid gray;
+  color: gray;
+  font-size: large;
+  font-weight: bold;
+}
+
+.action-btn:hover {
+  background-color: #ff676f;
+  color: white;
+}
+
+.action-btn-prim {
+  background-color: #ff676f;
+  border-radius: 10px;
+  color: white;
+  border: solid #ff676f;
+  font-size: large;
+  font-weight: bold;
+}
+
+.action-btn-prim:hover {
+  background-color: #ff676f;
+  color: white;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
